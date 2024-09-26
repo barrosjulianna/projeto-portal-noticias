@@ -1,0 +1,19 @@
+
+
+/* utility first (Faz apneas uma coisa) */
+.grid {
+    display: grid;
+}
+    
+/* o grid deixa um abaixo do outro, o flow insere o sentido dele [coluna] */
+.grid-flow-column {
+    grid-auto-flow: column;
+}
+/* usando o grid grid-cols-2 ele divide em 2 em cima e 2 embaixo na alteral direita */
+.grid-cols-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.gap-16 {
+    gap: 16px;
+}
