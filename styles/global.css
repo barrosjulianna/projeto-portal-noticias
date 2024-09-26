@@ -40,3 +40,18 @@ a:hover {
 h1,h2,h3 {
     font: inherit; /*  herdando do pai q ele esta dentro, no caso do body */
 }
+.container {
+    max-width: 1280px; /* é o tamanho da pagina W no frame*/
+    padding-inline: 32px; /* é aborda da pagina*/ 
+    margin-inline: auto;
+}
+
+/* utility first (Faz apneas uma coisa) */
+.grid {
+display: grid;
+}
+
+/* o grid deixa um abaixo do outro, o flow insere o sentido dele [coluna] */
+.grid-flow-column {
+    grid-auto-flow: column;
+}

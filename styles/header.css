@@ -1,0 +1,23 @@
+#primary {
+    padding-block: 20px; /* 20px no eixo vertical e horizontal*/
+    /* ajustando o nav para os icones ficaram ao meio e centralizado */
+    div {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    /* nesting css */
+    div:nth-child(2) {
+        margin-inline: auto; /* pegar esquerda e direita*/
+    }
+    div:nth-child(3) {
+        justify-self: end; /* deixar icone no final da pagina*/
+    }
+}
+
+#secondary {
+    padding-block: 16px; /* espaço de cima e baixo*/
+    border: solid 1px var(--stroke-color);  /* fica em strock*/
+    border-inline:  none;
+    justify-content: space-between;
+}
