@@ -5,3 +5,22 @@
         border-radius: 4px;
     }
 }
+
+/* tem como pegar o css pelo figma */
+/* fazer com que a imagem fica 50% mais escura */
+.card {
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden; /* esconda td q n for da caixa */
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        top: 50%;
+        background: linear-gradient(
+            180deg,
+            transparent 0%,
+            #020617 100%
+        );
+    }
+}
