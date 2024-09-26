@@ -28,7 +28,10 @@
         position: absolute;
         bottom: 0;
         padding: 24px;
-
+        /* tem alguma tag com text-lg pra mexer no padding */
+        &:has(.text-lg) {
+            padding: 12px;
+        }
         h2{
             margin-top: 8px;
         }
