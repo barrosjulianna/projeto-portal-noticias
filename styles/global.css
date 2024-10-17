@@ -11,6 +11,7 @@
     --stroke-color: #1E293B;
     --text-color-primary: #F1F5F9;
     --text-color-secondary: #CBD5E1;
+    --text-fundo: #242424;
 
     --font-family: 'Archivo', 'sans-serif';
     --h1: 800 24px/135% var(--font-family);
@@ -25,7 +26,7 @@
 body{
     font: var(--text);
     color: var(--text-color-primary);
-    background-color: var(--text-color-secondary);
+    background-color: var(--text-fundo);
 }
 
 a {
